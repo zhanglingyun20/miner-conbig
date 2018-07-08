@@ -1,0 +1,16 @@
+server:
+  port: 9998
+  address: 127.0.0.1
+  sessionTimeout: 30
+logging: 
+    config: classpath:logback.xml
+    path: ../logs
+    level:
+        root: info
+        org.springframework: error
+config:
+  apikey: 1233475FBD832A3BC6603C922FA2C0CA
+  secretKey: 4B13BAE33B376EB7A1536BEC2C4E1CB1
+  domain: https://www.coinbig.com
+  symbol: ETH_USDT
+  amount: 0.1
